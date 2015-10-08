@@ -1,0 +1,22 @@
+APP_QUESTION_SUBJECT
+	Contains system level information about subjects, e.g. Algebra, Biology, English, etc.
+APP_QUESTION_SUBJECT_DETAIL
+	Contains system level information about sub-subjects, e.g. Linear Programming, Ribosomes, Shakespeare, etc.
+APP_QUESTION_TYPE
+	Contains system level information about types of questions, e.g. multiple choice, boolean, etc.
+CLASS
+	Contains basic information regarding the taught class, e.g. a row for English 101
+CLASS_INSTRUCTOR
+	Links a row in CLASS to a row in INSTRUCTOR
+CLASS_QUESTION
+	Stores all questions associated with a particular class set
+CLASS_STUDENT
+	Links a row in CLASS to a row in STUDENT
+INSTRUCTOR
+	Contains basic information regarding the instructor, e.g. name = John Jones
+QUESTION
+	Contains question text and type
+QUESTION_ANSWER
+	Contains possible answers to a question in the QUESTION table
+STUDENT
+	Contains basic information regarding the student, e.g. name = Bob Bones
