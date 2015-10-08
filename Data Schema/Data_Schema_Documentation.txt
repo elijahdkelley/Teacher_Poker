@@ -20,3 +20,42 @@ QUESTION_ANSWER
 	Contains possible answers to a question in the QUESTION table
 STUDENT
 	Contains basic information regarding the student, e.g. name = Bob Bones
+
+TODO
+	Badges
+
+	APP_BADGE
+		Contains badge types
+	BADGE
+		Contains badge setups, e.g. qualifications
+	CLASS_BADGE
+		Contains badges that are enabled for a given Class & class specific setups (expiration)
+	STUDENT_BADGE
+		Links a student record to an achieved badge
+	
+	Scoring	
+
+	CLASS_QUESTION_SCORE
+		Sets a point value for questions for each class
+	STUDENT_SCORE
+		Tracks the total score value for a given student
+
+	Questions
+	
+	STUDENT_QUESTION_ANSWER
+		Tracks a student's response to a given question
+
+	Team Setup
+
+	CLASS_TEAM
+		Sets a team within the class
+	CLASS_TEAM_STUDENT
+		Contains student assignments to a given team within a class
+
+	Application
+
+	USER
+	USER_PERMISSION
+	USER_PASSWORD
+	
+	
